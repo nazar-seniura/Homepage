@@ -1,0 +1,27 @@
+.carousel{
+    width: 50%;
+    margin: 0 auto;
+    color: black;
+}
+#carouselExampleCaptions{
+    width: 65%;
+    z-index: 1;
+}
+h2{
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+#carouselExampleCaptions .h5, h5 {
+    font-size: 2.25rem;
+    margin-bottom: -1.5rem;
+    margin-left: 21.5rem;
+    color: black;
+}
+#carouselExampleCaptions p{
+    font-size: 25px;
+}
+@media (max-width: 900px){
+    #carouselExampleCaptions{
+        width: 80%;
+    }
+}
